@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@1.0/nanumbarungothicsubset.css"> <!-- 200, 300, 400, 700 -->
+    
+    <style>
+        * {margin: 0; padding: 0; font-family: 'Nanum Barun Gothic', sans-serif;}
+        .container {width: 1240px; margin: 0 auto; background: rgba(0,0,0,0.3);}
+        #wrap { }
+        #section1 {
+            background: 
+                url(https://developers.nugu.co.kr/static/img/sdk_shape_bg.50141af.png),
+                url(https://developers.nugu.co.kr/static/img/main_sdk_bg.d126d3f.png);
+            background-color: #009dff; 
+            background-position: center top, center right -200px;
+            background-repeat: no-repeat, no-repeat;
+            background-size: 100%, 70%;
+        }
+        #section2 { }
+        #section3 {margin-bottom: 200px; background: #f1f1f1; }
+
+        .sec1 {padding: 200px 0;}
+        .sec1 h2 {color: #fff; font-size: 40px; padding-bottom: 20px;}
+        .sec1 h2 img {width: 250px;}
+        .sec1 p {
+            color: #fff; font-size: 20px;
+            line-height: 1.7;
+            margin-right: 60%;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+        .sec1 a {color : #fff; text-decoration: none; }
+
+        .sec2 {overflow: hidden; padding: 100px 0;}
+        .sec2 > div {
+            float: left; width: 50%;
+            background: url(https://developers.nugu.co.kr/static/img/main_sdk_bg.d126d3f.png) no-repeat center right;
+            background-size: contain;
+        }
+        .sec2 > div p {padding-right: 50%; }
+
+        /* sec3 */
+        /* .sec3 {overflow: hidden; padding: 100px 0; }
+        .sec3 > div {
+            float: left; width: 24.25%; background: #fff; margin-right: 1%; 
+            border-radius: 5px;    
+        }
+        .sec3 > div:last-child {margin-right: 0;} */
+        .sec3 {display: flex; padding: 100px 0; }
+        .sec3 > div {width: 24.25%; background: #fff; border-radius: 5px; margin-right: 1%;}
+        .sec3 > div:last-child {margin-right: 0;} 
+
+        .sec3 > div img {width: 100%; border-radius: 5px 5px 0 0;    }
+        .sec3 > div figcaption {padding: 20px;}
+        .sec3 > div figcaption a {display: block; text-decoration: none; color: #555;margin-top: 20px;}
+    </style>
+</head>
+<body>
+    <section id="wrap">
+        <section id="section1">
+            <div class="container">
+                <div class="sec1">
+                    <h2><img src="" alt=""></h2>
+                    <p>NUGU SDK를 통해 인터넷이 연결되는 디바이스와
+                            애플리케이션에서 손쉽게 NUGU 플랫폼에 연결할 수 있습니다.
+                            음성인식 기반의 다양한 AI 서비스 이용 경험을 제공해 보세요.</p>
+                    <a href="#">더보기</a>
+                </div>
+            </div>
+        </section>
+        <section id="section2">
+            <div class="container">
+                <div class="sec2">
+                    <div>
+                        <h2>NUGU</h2>
+                        <p>NUGU SDK를 통해 인터넷이 연결되는 디바이스와
+                                애플리케이션에서 손쉽게 NUGU 플랫폼에 연결할 수 있습니다.
+                                음성인식 기반의 다양한 AI 서비스 이용 경험을 제공해 보세요.</p>
+                        <a href="#">더보기</a>
+                    </div>
+                    <div>
+                        <h2>NUGU</h2>
+                        <p>NUGU SDK를 통해 인터넷이 연결되는 디바이스와
+                                애플리케이션에서 손쉽게 NUGU 플랫폼에 연결할 수 있습니다.
+                                음성인식 기반의 다양한 AI 서비스 이용 경험을 제공해 보세요.</p>
+                        <a href="#">더보기</a>
+                    </div>
+                </div>          
+            </div>
+        </section>
+        <section id="section3">
+            <div class="container">
+                <div class="sec3">
+                    <div>
+                        <figure>
+                            <img src="assets/img/hover01.jpg" alt="">
+                            <figcaption>
+                                애플리케이션
+                                <a href="#">더보기</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="assets/img/hover01.jpg" alt="">
+                            <figcaption>
+                                애플리케이션
+                                <a href="#">더보기</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="assets/img/hover01.jpg" alt="">
+                            <figcaption>
+                                애플리케이션
+                                <a href="#">더보기</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="assets/img/hover01.jpg" alt="">
+                            <figcaption>
+                                애플리케이션
+                                <a href="#">더보기</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/* 전체영역 */
+#wrap {font-family: 'Nanum Barun Gothic', sans-serif;}
+#section1{background: 
+    url(https://developers.nugu.co.kr/static/img/sdk_shape_bg.50141af.png),
+    url(https://developers.nugu.co.kr/static/img/main_sdk_bg.d126d3f.png);
+background-color: #009dff; 
+background-position: center top, center right -200px;
+background-repeat: no-repeat, no-repeat;
+background-size: 100%, 70%;
+height: 500px;} 
+#section2{width: 100%; height: 350px; border-bottom: 1px solid #000000;}
+#section3{background-color: #f1f1f1;}
+
+/* 가운대 영역 */
+.container {width: 1240px; margin: 0 auto;}
+
+/* 최상위 영역 */
+.header .intor {padding-top: 100px;}
+.header .intor h2 {font-size: 45px; color: #fff; padding-bottom: 20px; font-weight: bold;}
+.header .intor p {font-size: 20px; color: #fff;  padding-bottom: 10px; margin-right: 63%; line-height: 1.7;}
+.header .intor a {font-size: 15px; color: #fff; }
+
+
+/* 중간 영역 */
+
+.nav {overflow: hidden;  background-image: url(img/KakaoTalk_20191128_182832327.png); background-size: cover; padding-top: 80px;}
+.nav > div {float: left; width: 50%;}
+.nav .first {position: relative;}
+.nav .first .img1 {position: absolute; left: 300px; top: 50px; background-image: url(img/ss.jpg); width: 115px; height: 100px;}
+.nav .first h2 {font-size: 30px; font-weight: bold; padding-bottom: 15px;}
+.nav .first p {font-size: 13px; word-break: keep-all; display: block; padding-bottom: 10px; margin-right: 60%;}
+.nav .first a {font: 8px; color: #b1b4c9;}
+
+.nav .second {position: relative;}
+.nav .second .img2 {position: absolute; right: 200px; top: 50px; background-image: url(img/aa.jpg); width: 115px; height: 100px;}
+.nav .second h2{font-size: 30px; font-weight: bold; padding-bottom: 15px;}
+.nav .second p{font-size: 13px; word-break: keep-all; display: block; padding-bottom: 10px; margin-right: 60%;  }
+.nav .second a{font: 8px; color: #b1b4c9;}
+
+/* 밑의 영역 */
+#section3 h2 {font-size: 30px; font-weight: bold;text-align: left; padding: 50px 0 25px 0}
+.bottom {display:flex;}
+.bottom > div {width: 24.25%; background: #fff; border-radius: 5px; margin-right: 1%;}
+.bottom > div:last-child {margin-right: 0;} 
+.bottom > img {width: 100%;}
+.bottom p{font-size: 30px; text-align: center; padding-top: 80px; font-weight: bold;}
+.bottom span {color: #009dff;}
+.bd1 {background-image: url(img/aaaaa.jpg); width: 300px; height: 200px;}
+.bd2 {background-image: url(img/aaaaa.jpg); width: 300px; height: 200px;}
+.bd3 {background-image: url(img/aaaaa.jpg); width: 300px; height: 200px;}
+.bd4 {background-image: url(img/aaaaa.jpg); width: 300px; height: 200px;}
+.bottom > div figcaption {padding: 25px; font-size: 20px; font-weight: bold;}
+.bottom > div figure a {display: block; font-size: 15px; padding: 0 0 10px 20px; text-decoration: none; color: #555;}
+

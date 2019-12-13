@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* 전체영역 */
+
+    /* 가운데영역 */
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* 첫번째 영역 */
+    #section1 {
+        overflow: hidden;
+        height: 300px;
+        padding-bottom: 60px;
+    }
+
+    #section1 .first {
+        position: relative;
+        float: left;
+        width: 50%;
+        padding-top: 100px;
+    }
+
+    #section1 .first h3 {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    #section1 .first p {
+        font-size: 16px;
+        padding-right: 50%;
+        line-height: 1.5;
+        padding-bottom: 8px;
+    }
+
+    #section1 .first .bg1 {
+        position: absolute;
+        top: 170px;
+        right: 80px;
+        background-image: url(img/ss.jpg);
+        width: 115px;
+        height: 100px;
+    }
+
+    #section1 .first a {
+        font-size: 12px;
+        text-decoration: none;
+        color: #b1b4c5;
+    }
+
+    #section1 .second {
+        position: relative;
+        float: left;
+        width: 50%;
+        padding-top: 100px;
+    }
+
+    #section1 .second h3 {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    #section1 .second p {
+        font-size: 16px;
+        padding-right: 50%;
+        line-height: 1.5;
+        padding-bottom: 8px;
+    }
+
+    #section1 .second .bg2 {
+        position: absolute;
+        top: 170px;
+        right: 80px;
+        background-image: url(img/aa.jpg);
+        width: 115px;
+        height: 100px;
+    }
+
+    #section1 .second a {
+        font-size: 12px;
+        text-decoration: none;
+        color: #b1b4c5;
+    }
+    /* 두번째 영역 */
+    #section2 {background-color: #f7f9fa;}
+    #section2 h2 {font-size: 30px; padding: 60px 0 25px 0}
+    #section2 .bottom{display: flex;}
+
+    .bottom > div {width: 24%; padding-right: 1%;}
+    .bottom > div:last-child {margin-right: 0;}
+    .bottom > div a{text-decoration: none; color: #b1b4ba; font-size: 13px; padding-left: 20px;}
+    .bottom > div p{text-align: center; padding-top: 85px; font-size: 30px; font-weight: bold;}
+    .bottom > div span{color: #009dff;}
+    .bottom > div figure {font-size: 17px; font-weight: bold; padding-right: 1%; background: #fff; border-radius: 3px; border: solid 1px #e2e7ea;}
+    .bottom > div figcaption {padding: 18px 0 40px 20px; }
+
+    .bottom .bg1 {background-image: url(img/aaaaa.jpg); width: 287px; height: 200px; border-radius: 3px;}
+    .bottom .bg2 {background-image: url(img/aaaaa.jpg); width: 287px; height: 200px; border-radius: 3px;}
+    .bottom .bg3 {background-image: url(img/aaaaa.jpg); width: 287px; height: 200px; border-radius: 3px;}
+    .bottom .bg4 {background-image: url(img/aaaaa.jpg); width: 287px; height: 200px; border-radius: 3px;}
+</style>
+
+<body>
+    <div id="wrap">
+        <div class="container">
+            <!--section2-->
+            <section id="section1">
+                <div class="first">
+                    <h3>Play Builder</h3>
+                    <p>NUGU는 간단한 코드 정의와 예시 문장 입력만으로 손쉽게 NUGU 디바이스 및 애플리케이션에서 사용 가능한 AI 서비스를 만들 수있는 개발툴을 지원합니다.</p>
+                    <div class="bg1"></div>
+                    <a href="#">더보기></a>
+                </div>
+                <div class="second">
+                    <h3>NUGU biz</h3>
+                    <p>회의실,병원,호텔처럼 공용의 공간에서 모두가 NUGU 서비스를 이용하거나, 내가 초대한 사용자에게만 AI서비를 제공할 수 있습니다.</p>
+                    <a href="#">더보기></a>
+                    <div class="bg2"></div>
+                </div>
+            </section>
+        </div>
+        <!--section1-->
+
+        <!--section2-->
+        <section id="section2">
+            <div class="container">
+                <h2>NUGU 개발 가이드</h2>
+                <div class="bottom">
+                    <div>
+                        <figure>
+                            <div class="bg1">
+                                <p>NUGU <span>SDK</span></p>
+                            </div>
+                            <figcaption>
+                                NUGU SDK 사용하기
+                            </figcaption>
+                            <a href="#">더보기></a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="bg2">
+                                <p>NUGU<span> play</span></p>
+                            </div>
+                            <figcaption>
+                                Play Builder로 Play 만들기
+                            </figcaption>
+                            <a href="#">더보기></a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="bg3">
+                                <p>NUGU<span> biz</span></p>
+                            </div>
+                            <figcaption>
+                                Setup Tool 디바이스 등록
+                            </figcaption>
+                            <a href="#">더보기></a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="bg4">
+                                <p>NUGU <span> play</span></p>
+                            </div>
+                            <figcaption>
+                                Play Builder 지원 도구
+                            </figcaption>
+                            <a href="#">더보기></a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section2-->
+    </div>
+</body>
+
+</html>
